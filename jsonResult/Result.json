@@ -1,0 +1,179 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19365363151,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the \"FireFox\" browser and url is loaded",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FireFox",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.launch_the_firefox_browser_and_is_loaded(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "http://automationpractice.com/index.php"
+                ],
+                "line": 5
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User should be able to enter valid Email adress",
+        "description": "",
+        "id": "login-functionality-of-application;user-should-be-able-to-enter-valid-email-adress",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14133501884,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the homepage is launched verify signin option and verify the create acount header",
+            "match": {
+              "location": "stepDefinition.the_homepage_is_launched_verify_signin_option_and_verify_the_create_acount_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 811402546,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter the valid email adress in create acount page",
+            "match": {
+              "location": "stepDefinition.enter_the_valid_email_adress_in_create_acount_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "rajeshganta87@gmail.com"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1097642887,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click create button and navigate to register page",
+            "match": {
+              "location": "stepDefinition.click_create_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2011833812,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Gender radio button",
+            "match": {
+              "location": "stepDefinition.Gender_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4377609272,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify personal details of Firstname, Lastname,Email,Password,Date of Birth and Checkboxes",
+            "match": {
+              "location": "stepDefinition.Enterpersonal(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Rajesh",
+                  "Ganta",
+                  "nandugudboy"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25803995678,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify all your address details",
+            "match": {
+              "location": "stepDefinition.addressDetails(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "rajesh",
+                  "ganta",
+                  "KUKATPALLY",
+                  "202/125/",
+                  "VIDHYANAGAR",
+                  "NewYork",
+                  "Arizona",
+                  "52287",
+                  "United States",
+                  "otheradress",
+                  "23564555555",
+                  "9951236788",
+                  "nandusappartments"
+                ],
+                "line": 21
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2622306555,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on Register Button and Verify AccountDisplay",
+            "match": {
+              "location": "stepDefinition.ClickRegister()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality of Application",
+    "description": "",
+    "id": "login-functionality-of-application",
+    "keyword": "Feature",
+    "uri": "Features/Automation.feature"
+  }
+]

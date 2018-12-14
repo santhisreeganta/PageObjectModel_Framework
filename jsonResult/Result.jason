@@ -1,0 +1,57 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "This scenario is to validate display of Women page",
+        "description": "",
+        "id": "home-page-is-dispalyed-and-women-menu-strip-is-page-is-opened;this-scenario-is-to-validate-display-of-women-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "Firefox browser is launched and url is loaded",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "http://automationpractice.com/index.php"
+                ],
+                "line": 4
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Menu item of Women is Clicked",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Verify Submenu option Top is clicked and displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home page is dispalyed and Women menu Strip is page is opened",
+    "description": "",
+    "id": "home-page-is-dispalyed-and-women-menu-strip-is-page-is-opened",
+    "keyword": "Feature",
+    "uri": "feature.feature"
+  }
+]
